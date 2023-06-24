@@ -24,10 +24,8 @@ export const Feed = () => {
   const handleTagClick = (tag) => {
     const index = selectedTags.indexOf(tag);
     if (index === -1) {
-      // Tag not found in selectedTags, so add it
       setSelectedTags([...selectedTags, tag]);
     } else {
-      // Tag found in selectedTags, so remove it
       const updatedTags = selectedTags.filter((t) => t !== tag);
       setSelectedTags(updatedTags);
     }
@@ -82,6 +80,7 @@ export const Feed = () => {
           <div className="vote-count">
             Votes: {votes[post.postId] || 0}
           </div>
+          
         </div>
       ))}
     </div>
