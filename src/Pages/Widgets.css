@@ -1,0 +1,37 @@
+
+
+
+.widgets-widgetContainer {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(235, 234, 234);
+    border-radius: 20px;
+}
+
+.widgets-widgetContainer {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(235, 234, 234);
+    border-radius: 20px;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    background-color: #fff;
+  }
+  
+  .dropdown:focus {
+    outline: none;
+    border-color: #5b9dd9;
+    box-shadow: 0 0 3px 2px rgba(91, 157, 217, 0.3);
+  }
+  

@@ -1,0 +1,30 @@
+.sidebar{
+    border-right: 1px solid rgb(189, 187, 187);
+    flex: 0.2;
+    min-width: 220px;
+    margin-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar-createPost{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border: none !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: 17px !important;
+    margin-right: 3px !important;
+    width: 65% !important;
+
+}
+
+
+.sidebar-logo{
+    color: var(--primary-color);
+    font-size: 40px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
